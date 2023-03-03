@@ -11,7 +11,9 @@ def hello_world():
 def welcomeP():
     return "<h1>Welcome to ABC Corporation</h1>"
 
-
+@app.route("/new")
+def test():
+    return "abc"
 @app.route("/abc")
 def hello_world1():
     return "<h1>Hello, World!vjndjdv </h1>"
